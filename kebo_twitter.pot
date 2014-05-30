@@ -1,0 +1,312 @@
+# Copyright (C) 2013 Kebo - Twitter Feed
+# This file is distributed under the same license as the Kebo - Twitter Feed package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kebo - Twitter Feed 1.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/kebo-twitter-feed\n"
+"POT-Creation-Date: 2013-09-29 14:53:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-05-30 00:12-0500\n"
+"Last-Translator: Sam Hakimi <sam@codedominion.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: inc/menu.php:13 inc/menu.php:14 inc/menu.php:83 inc/widget.php:32
+msgid "Kebo Twitter Feed"
+msgstr "Kebo توییتر فید"
+
+#: inc/menu.php:29
+msgid "You do not have sufficient permissions to access this page."
+msgstr "شما اجازه کافی برای دسترسی به این صفحه را ندارید"
+
+#: inc/menu.php:55
+msgid ""
+"Connection established with Twitter. You can now display your Twitter Feed "
+"on your website using a <a href=\"%s\">Widget</a>."
+msgstr ""
+
+#: inc/menu.php:71
+msgid "Connection reset to Twitter."
+msgstr "اتصال مجددا به توییتر شد."
+
+#: inc/menu.php:99
+msgid "Twitter API - Error Log"
+msgstr "توییتر API - ضبط خطا"
+
+#: inc/menu.php:101
+msgid ""
+"Any errors received while connecting to Twitter will be displayed below."
+msgstr "هر گونه خطا دریافت در حال اتصال به توییتر این زیر نمایش داده میشود."
+
+#: inc/menu.php:105
+msgid "Date"
+msgstr "تاریخ"
+
+#: inc/menu.php:105
+msgid "Code"
+msgstr "رمز"
+
+#: inc/menu.php:105
+msgid "Message"
+msgstr "پیام"
+
+#: inc/menu.php:117
+msgid "Twitter API - Error Key"
+msgstr "توییتر API - کلیده خطا"
+
+#: inc/menu.php:119
+msgid ""
+"Below is a key of the most common types of error returned by Twitter and a "
+"short description."
+msgstr "در زیر یک کلید از نوع از رایج ترین خطا های توییتر و شرح کوتاهی هست."
+
+#: inc/menu.php:124 inc/menu.php:127
+msgid ""
+"There is a problem with your connection to Twitter, please disconnect and re-"
+"connect to the service."
+msgstr ""
+"یک مشکل با اتصال شما به توییتر وجود دارد، لطفا به قطع ارتباط و اتصال مجدد به "
+"خدمات بر قرار داشته باشید."
+
+#: inc/menu.php:125
+msgid "Twitter has blocked our access to your account."
+msgstr "توییتر ما با دسترسی به حساب کاربری شما را مسدود کرده است."
+
+#: inc/menu.php:126
+msgid ""
+"Your account has hit Twitter's limit of 180 requests per hour, we are making "
+"%d of those requests. You can edit the 'Feed Refresh Rate' in the options "
+"above to change this."
+msgstr ""
+"حساب کاربری شما ضربه حد توییتر از ۱۸۰ درخواست در هر ساعت، ما در حال ساخت d%  "
+"از آن درخواست بکنید. شما می توانید \"فید نرخ تجدید صفحه در گزینه های فوق را "
+"ویرایش برای تغییر این استفاده بکنید."
+
+#: inc/menu.php:128
+msgid "Twitter is currently too busy to reply."
+msgstr "توییتر در حال حاضر بیش از حدش شلوغ  هست برایه پاسخ دادن."
+
+#: inc/options.php:16
+msgid "Twitter Connection"
+msgstr " اتصال باتوییتر"
+
+#: inc/options.php:27
+msgid ""
+"To enable us to display your Tweets you must connect your Twitter account to "
+"our Twitter Application by clicking on the large 'Connect to Twitter' button "
+"below."
+msgstr ""
+" برای قادرکردن به نمایش توییت های خود شما باید حساب توییتر خود را به برنامه "
+"ما با کلیک کردن بر روی دکمیه بزرگ 'اتصال به توییتر'  زیر ارتباط برقرار کنند."
+
+#: inc/options.php:36
+msgid "Connect to Twitter"
+msgstr "وصل بشوه به توییتر"
+
+#: inc/options.php:42
+msgid "Connected to Twitter"
+msgstr "وصل شده به توییتر"
+
+#: inc/options.php:44
+msgid "Connected as"
+msgstr "نام در حاله اتصال"
+
+#: inc/options.php:46
+msgid "Disconnect Service"
+msgstr "قطع ارتباط سرویس"
+
+#: inc/options.php:51
+msgid "General Options"
+msgstr "تنظیمات عمومی"
+
+#: inc/options.php:58
+msgid "Feed Refresh Rate"
+msgstr "سرعت تازه کردن فید"
+
+#: inc/options.php:114
+msgid "Minutes. Should be between 1 and 30."
+msgstr "دقیقه. باید بین ۱ و ۳۰ باشد."
+
+#: inc/options.php:115
+msgid ""
+"This controls how frequently we update the stored list of Tweets for display "
+"on your website."
+msgstr ""
+"این کنترل چنداغلب لیست ذخیره شده از توییتهای برای نمایش در وب سایت خود "
+"راتازه میکنیم."
+
+#: inc/options.php:144
+msgid "Value supplied is outside of acceptable range 1-30."
+msgstr "ارزش عرضه شده است خارج از محدوده قابل قبول ۳۰-۱ میباشد."
+
+#: inc/options.php:155
+msgid "Value supplied is not a valid number."
+msgstr "ارزش عرض کرده شده یک شماره معتبر نیست."
+
+#: inc/widget.php:29
+msgid "Displays your Twitter Feed on your website."
+msgstr "توییتر فید خود را در وب سایت خود نمایش میدهد."
+
+#: inc/widget.php:122
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/widget.php:127
+msgid "Display"
+msgstr "نمایش"
+
+#: inc/widget.php:129
+msgid "Tweets"
+msgstr "توییتها"
+
+#: inc/widget.php:130
+msgid "Re-Tweets"
+msgstr "دوباره توییتها"
+
+#: inc/widget.php:131
+msgid "All Tweets"
+msgstr "همه تویت ها"
+
+#: inc/widget.php:138
+msgid "Style"
+msgstr "استیل"
+
+#: inc/widget.php:140
+msgid "List"
+msgstr "جدول"
+
+#: inc/widget.php:141
+msgid "Slider"
+msgstr "سر خورنده"
+
+#: inc/widget.php:148
+msgid "Theme"
+msgstr "زمینه"
+
+#: inc/widget.php:150
+msgid "Light"
+msgstr "کم رنگ"
+
+#: inc/widget.php:151
+msgid "Dark"
+msgstr "پررنگ"
+
+#: inc/widget.php:157
+msgid "Number Of Tweets"
+msgstr "تعداد توییتها "
+
+#: inc/widget.php:157
+msgid "Range 1-50"
+msgstr "۱-۵۰محدود"
+
+#: inc/widget.php:161
+msgid "Show profile image?"
+msgstr "نمایش تصویره مشخصات؟"
+
+#: inc/widget.php:165
+msgid "Show conversations?"
+msgstr "نمایش گفتگوهای؟"
+
+#: inc/widget.php:169
+msgid "Show media? (only Lists)"
+msgstr "نمایش رسانه ها؟ (فقط لیست)"
+
+#: kebo-twitter-feed.php:84
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: kebo-twitter-feed.php:120
+msgid "Connect to your Twitter Account"
+msgstr "اتصال به حساب توییتر خود بکن"
+
+#: kebo-twitter-feed.php:121
+msgid ""
+"In just a few clicks we can connect your website to your Twitter account and "
+"display your latest Tweets."
+msgstr ""
+"در تنها چند کلیک ما می توانیم وب سایت خود را به حساب توییتر خود را در ارتباط "
+"و نمایش آخرین توییت های خود اجام بدهیم."
+
+#: kebo-twitter-feed.php:121
+msgid "Get Started Now"
+msgstr "شروع به کار کنید"
+
+#: kebo-twitter-feed.php:305
+msgid ""
+"This update changed the way your connection to Twitter was stored by "
+"WordPress, please check the plugin is still connected to your Twitter "
+"account, <a href=\"%s\">here</a>."
+msgstr ""
+
+#: kebo-twitter-feed.php:334
+msgid ""
+"<strong>Kebo Twitter Feed:</strong> No connection to Twitter found, to get "
+"started connect to your Twitter account from <a href=\"%s\">this page</a>."
+msgstr ""
+" توییتر فید: اتصال به توییتر نشد. برای اتصال به هسابتون به این سفه وصل شوین."
+
+#: views/list.php:82 views/slider.php:81
+msgid "Time posted"
+msgstr "زمان ارسال شدن"
+
+#: views/list.php:82 views/slider.php:81
+msgid "Posted on "
+msgstr "ارسال شده در"
+
+#: views/list.php:97
+msgid "View photo"
+msgstr "نمایش عکس"
+
+#: views/list.php:97
+msgid "Hide photo"
+msgstr "عکس را پنهان بکن"
+
+#: views/list.php:99 views/slider.php:95
+msgid "Reply"
+msgstr "پاسخ"
+
+#: views/list.php:100 views/slider.php:96
+msgid "Re-Tweet"
+msgstr "دوباره توییت"
+
+#: views/list.php:101 views/slider.php:97
+msgid "Favorite"
+msgstr "محبوب"
+
+#: views/list.php:110
+msgid "Tweet Image"
+msgstr "توییت تصویر"
+
+#: views/list.php:125 views/slider.php:108
+msgid "Sorry, no Tweets were found."
+msgstr "با عرض پوزش، هیچ توییت یافت نشد."
+
+#: views/list.php:131 views/slider.php:114
+msgid "Sorry, the Tweet data is not in the expected format."
+msgstr "با عرض پوزش، اطلاعات Tweet در فرمت مورد نظر نمی باشد."
+
+#. Plugin Name of the plugin/theme
+msgid "Kebo - Twitter Feed"
+msgstr "Kebo - توییتر فید"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/kebo-twitter-feed/"
+msgstr "http://wordpress.org/plugins/kebo-twitter-feed/"
+
+#. Description of the plugin/theme
+msgid ""
+"Connect your site to your Twitter account and display your Twitter Feed on "
+"your website effortlessly with a custom widget."
+msgstr ""
+"سایت خود را به حساب توییتر خود وصل کنید و نمایش توییتر فید خود را در وب سایت "
+"خود را بی زحمت با یک ویجت سفارشی را انجام دهید."
+
+#. Author of the plugin/theme
+msgid "Kebo"
+msgstr "Kebo"
+
+#. Author URI of the plugin/theme
+msgid "http://kebopowered.com"
+msgstr "http://kebopowered.com"
