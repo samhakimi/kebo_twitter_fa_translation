@@ -8,10 +8,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-05-30 00:12-0500\n"
+"PO-Revision-Date: 2014-06-03 12:11-0500\n"
 "Last-Translator: Sam Hakimi <sam@codedominion.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: CodeDominion <sam@codedominion.com>\n"
 "X-Generator: Poedit 1.5.4\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: inc/menu.php:13 inc/menu.php:14 inc/menu.php:83 inc/widget.php:32
 msgid "Kebo Twitter Feed"
@@ -19,13 +22,15 @@ msgstr "Kebo توییتر فید"
 
 #: inc/menu.php:29
 msgid "You do not have sufficient permissions to access this page."
-msgstr "شما اجازه کافی برای دسترسی به این صفحه را ندارید"
+msgstr "شما اجازه کافی برای دسترسی به این صفحه ندارید"
 
 #: inc/menu.php:55
 msgid ""
 "Connection established with Twitter. You can now display your Twitter Feed "
 "on your website using a <a href=\"%s\">Widget</a>."
 msgstr ""
+"اتصال با توییتر برقرار شد. شما هم اکنون می توانید صفحه نمایش توییتر فید خود "
+"را در وب سایت خود با استفاده از یک <a href=\"%s\">Widget</a> بر قرار بهکنید."
 
 #: inc/menu.php:71
 msgid "Connection reset to Twitter."
@@ -239,13 +244,17 @@ msgid ""
 "WordPress, please check the plugin is still connected to your Twitter "
 "account, <a href=\"%s\">here</a>."
 msgstr ""
+"اتصال ذخیره شده شما از وردپرس به توییتر ممکنه تغییر کرده باشه، لطفا تنظیمات "
+"افزانه را به حساب توییتر خود، اینجا نگاح به اندازید. <a href=\"%s\">Visit "
+"page</a>"
 
 #: kebo-twitter-feed.php:334
 msgid ""
 "<strong>Kebo Twitter Feed:</strong> No connection to Twitter found, to get "
 "started connect to your Twitter account from <a href=\"%s\">this page</a>."
 msgstr ""
-" توییتر فید: اتصال به توییتر نشد. برای اتصال به هسابتون به این سفه وصل شوین."
+" توییتر فید: اتصال به توییتر نشد. برای اتصال به هسابتون به این سفه وصل شوین. "
+"<a href=\"%s\">Visit page</a>"
 
 #: views/list.php:82 views/slider.php:81
 msgid "Time posted"
